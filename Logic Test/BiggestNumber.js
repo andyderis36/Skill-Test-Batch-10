@@ -28,6 +28,8 @@ const maxRedigit = function(num) {
       .sort((a, b) => b - a)
       .join('')
 };
-console.log(maxRedigit(num));
+console.log("maxRedigit(251) ==> " + maxRedigit(num));
+
+document.write("maxRedigit(251) ==> " + maxRedigit(num));
 
 
